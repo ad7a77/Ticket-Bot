@@ -59,7 +59,7 @@ if (fs.existsSync('./models')) {
     }
   }
 } else {
-  console.log(chalk.redBright('Models folder not found!'));
+  console.log(chalk.redBright('Models folder not ASfound!'));
   loadStatus.models.push({
     name: 'N/A',
     category: 'MongoDB Model',

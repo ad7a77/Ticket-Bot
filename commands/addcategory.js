@@ -42,6 +42,10 @@ module.exports = {
     config.ticketCategories.push({ label, value, description, emoji });
     await config.save();
 
-    message.reply(`Categorie adăugată:tre ${label} (${value})`);
+<<<<<<< HEAD
+    message.reply(`Categorie adăugată: ${label} (${value})`);
+=======
+    message.reply(`Categorie adăugată: ${label} (${value})`);
+>>>>>>> 91bc77ac93cdf1f3cc1a6b501920d365ca251f69
   },
 };
